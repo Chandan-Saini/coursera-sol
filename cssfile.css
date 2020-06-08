@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* .container {
+  background-color: blueviolet;
+  height: 300px;
+  width: 900px;
+} */
+.box {
+  background-color: chartreuse;
+  margin: 10px;
+  border: 2px solid black;
+  height: 250px;
+  width: 481.073px;
+  float: left;
+}
