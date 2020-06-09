@@ -1,52 +1,72 @@
-* {
+ * {
   box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
+  
 }
 
 h1 {
   text-align: center;
-  background-color: coral;
-  margin: 20px;
+ 
+  
+}
+
+h2{
+  background-color: rgb(255, 252, 69);
+  position: relative;
+  padding:5px;
+  bottom: 19.2px;
+  right: 0.6px;
+  width: 200px;
+  text-align: center;
+ 
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  
+  float: right;
 }
 
 body {
   background-color: cyan;
 }
 
-.container {
-  background-color: blueviolet;
+.col{
+  background-color: rgb(207, 98, 198);
+  border:2px solid black;
+  margin: 5px;
 }
-.box {
-  background-color: chartreuse;
 
-  border: 2px solid black;
-  height: 250px;
+p{
+ font-weight: bold;
+  padding: 20px 10px;
+  
 }
+
+
 
 @media (min-width: 992px) {
-  .box {
-    width: 32.43%;
-    margin-left: 10px;
-    float: left;
-  }
+   .col-lg-4{
+      width: 33.33%;
+      float: left;
+   }
+
 }
 
-/* @media (max-width: 768px) and (min-width: 991px) {
-  .box {
+@media  (max-width: 991px) and (min-width: 768px){
+  .col-md-6{
     width: 50%;
-    margin-left: 10px;
     float: left;
   }
-
-  #b3 {
-    width: 100%;
+  
+  .col-md-12{
+        width: 100%;
+        float: left;
   }
-} */
-
-@media (max-width: 600px) {
-  .box {
-    background-color: darkorchid;
     
   }
+
+
+@media (max-width: 767px) {
+  .col-sm-12{
+        width: 100%;
+  }
 }
+
